@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Cox - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Ian Cox</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi! I'm Ian Cox.</h1>
+                <p class="hero-subtitle">Full Stack Developer & CSIS Student</p>
+                <p class="hero-description">
+                    Senior at University of Vermont pursuing Computer Science with a passion for 
+                    building innovative web applications and digital solutions. Currently seeking new grad job opportunities.
+                </p>
+                <div class="code-snippet">
+                    <span class="code-line"><span class="comment">// Welcome to my digital space</span></span>
+                    <span class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> = <span class="string">"Ian Cox"</span>;</span>
+                    <span class="code-line"><span class="keyword">const</span> <span class="variable">passion</span> = <span class="string">"Full Stack Development"</span>;</span>
+                    <span class="code-line"><span class="function">console.log</span>(<span class="string">`Hello World! I'm ${developer}`</span>);</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/iancox30/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ian-coxx" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:ianfcoxx@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a senior Computer Science student at the University of Vermont with a 
+                        passion for full-stack development and creating meaningful digital experiences. 
+                        My journey spans from building security management platforms to co-founding 
+                        a creative agency, always focusing on delivering high-quality, scalable solutions.
+                    </p>
+                    <p>
+                        With experience in modern technologies like React, Next.js, TypeScript, and 
+                        cloud platforms, I enjoy tackling complex problems and bringing ideas to life 
+                        through code.
+                    </p>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>University of Vermont, Burlington, VT</h4>
+                        <p>Bachelor of Science in Computer Science & Information Systems</p>
+                        <p>Minor in Business Administration</p>
+                        <p>Expected Graduation: May 2026</p>
+                        <p>Major GPA: 3.71</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">June 2025 – Present</div>
+                    <div class="experience-content">
+                        <h3>Full Stack Software Engineer (Contractor)</h3>
+                        <h4><a href="https://www.apshomesecurity.com/" target="_blank">APS Home Security</a></h4>
+                        <ul>
+                            <li>Built a security management platform with three role-based dashboards using Next.js 14 with React Hooks, TypeScript, and Supabase</li>
+                            <li>Implemented real-time cross-dashboard messaging system with WebSocket subscriptions and optimistic UI updates</li>
+                            <li>Integrated Supabase backend with PostgreSQL database, Row Level Security policies, and user authentication</li>
+                            <li>Deployed to Vercel with automated CI/CD pipeline and designed for mobile using Capacitor</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">May 2025 – Present</div>
+                    <div class="experience-content">
+                        <h3>Co-Founder / Lead Developer</h3>
+                        <h4><a href="https://www.thesummitcreative.com/" target="_blank">Summit Creative</a></h4>
+                        <ul>
+                            <li>Co-founded a creative agency delivering web design, development, and digital marketing solutions</li>
+                            <li>Built custom websites, e-commerce shops, and content management workflows optimized for performance</li>
+                            <li>Led client projects end-to-end including requirements gathering, technical architecture, and deployment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">November 2024 – May 2025</div>
+                    <div class="experience-content">
+                        <h3>Marketing & Web Design Intern</h3>
+                        <h4>JNG Building Services</h4>
+                        <ul>
+                            <li>Focused on user experience and website design to improve client engagement</li>
+                            <li>Created promotional content and managed social media to grow brand presence</li>
+                            <li>Designed and ran targeted digital ad campaigns to drive new business</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">May 2023 – July 2023</div>
+                    <div class="experience-content">
+                        <h3>Full Stack Software Engineer Intern</h3>
+                        <h4>Ayble Health</h4>
+                        <ul>
+                            <li>Developed and optimized front-end and back-end functionalities using JavaScript, Python, React Native, REST APIs, and Docker</li>
+                            <li>Collaborated with engineers via Google Meet, Slack, and GitHub, enhancing application performance</li>
+                            <li>Adhered to strict coding standards and contributed to web and mobile app functionality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Full-Stack Security Platform</h3>
+                        <div class="project-links">
+                            <a href="https://www.apshomesecurity.com/" target="_blank" class="project-link">
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive multi-tenant security management platform serving admin, patrol officers, 
+                        and residents with real-time messaging, task management, and property monitoring capabilities.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Next.js 14</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                        <span class="tech-tag">Prisma ORM</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>PyQuiz</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/ian-coxx/PyQuiz" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A Python-built study tool that makes learning and mastering material fun and easy 
+                        through interactive quiz functionality.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Quiz System</span>
+                        <span class="tech-tag">Educational Tools</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Neural Canvas</h3>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=0DIzFwDBfL4" target="_blank" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        AI art frame using Raspberry Pi, DALL-E 3, and Python, enhancing artistic 
+                        interaction through technology and machine learning.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Raspberry Pi</span>
+                        <span class="tech-tag">DALL-E 3</span>
+                        <span class="tech-tag">AI/ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Bundesliga Soccer App</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/ian-coxx/Bundesliga-Soccer-App" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Flask-based web application with SQLite backend to manage and visualize 2023-2024 
+                        Bundesliga team/player statistics with CRUD operations and data visualizations.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">Data Visualization</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Lights Out Game</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/ian-coxx/Lights-Out" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        C++ graphical interpretation of the console game Lights Out, leveraging OpenGL, 
+                        shaders, and custom engine design.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">OpenGL</span>
+                        <span class="tech-tag">Graphics</span>
+                        <span class="tech-tag">Game Development</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CppPy Study Tool</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/ian-coxx/CppPy-StudyTool" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Study tool with 4 fun & interactive game modes: flashcards, multiple choice, 
+                        matching, and timed challenge to help users prepare for exams.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Educational Tools</span>
+                        <span class="tech-tag">Interactive Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always interested in new opportunities and exciting projects. <br></br>
+                    I'm also looking for new grad job opportunities. <br></br>
+                    Let's connect and discuss how we can work together!
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="mailto:ianfcoxx@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/iancox30/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://github.com/ian-coxx" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ian Cox. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
