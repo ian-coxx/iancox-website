@@ -15,9 +15,10 @@ body {
     color: #e6e6e6;
     background-color: #0d1117;
     background-image: 
-        radial-gradient(circle at 25% 25%, #1f6feb 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, #7c3aed 0%, transparent 50%),
-        linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+        radial-gradient(circle at 20% 80%, #1f6feb 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, #7c3aed 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, #1f6feb 0%, transparent 30%),
+        linear-gradient(135deg, #0d1117 0%, #161b22 25%, #21262d 50%, #161b22 75%, #0d1117 100%);
 }
 
 .container {
@@ -113,36 +114,14 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: 
-        radial-gradient(circle at 20% 80%, #1f6feb 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, #7c3aed 0%, transparent 50%),
-        linear-gradient(135deg, #0d1117 0%, #161b22 50%, #21262d 100%);
+    background: transparent;
     color: #e6e6e6;
     position: relative;
     overflow: hidden;
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: 
-        repeating-linear-gradient(
-            90deg,
-            transparent,
-            transparent 98px,
-            rgba(88, 166, 255, 0.03) 100px
-        ),
-        repeating-linear-gradient(
-            0deg,
-            transparent,
-            transparent 98px,
-            rgba(124, 58, 237, 0.03) 100px
-        );
-    opacity: 0.5;
+    display: none;
 }
 
 .hero-container {
@@ -150,7 +129,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .hero-content {
@@ -328,9 +307,7 @@ section {
 
 /* About Section */
 .about {
-    background: #161b22;
-    border-top: 1px solid #30363d;
-    border-bottom: 1px solid #30363d;
+    background: transparent;
 }
 
 .about-content {
@@ -486,7 +463,7 @@ section {
 
 /* Projects Section */
 .projects {
-    background: #0d1117;
+    background: transparent;
 }
 
 .projects-grid {
@@ -575,12 +552,8 @@ section {
 
 /* Contact Section */
 .contact {
-    background: 
-        radial-gradient(circle at 20% 80%, #1f6feb 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, #7c3aed 0%, transparent 50%),
-        linear-gradient(135deg, #161b22 0%, #21262d 50%, #30363d 100%);
+    background: transparent;
     color: #e6e6e6;
-    border-top: 1px solid #30363d;
 }
 
 .contact .section-title {
